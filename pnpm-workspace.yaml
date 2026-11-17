@@ -1,5 +1,9 @@
-onlyBuiltDependencies:
-  - '@biomejs/biome'
-  - esbuild
-  - lefthook
-  - multiline-ts
+allowBuilds:
+  fsevents: false
+  '@biomejs/biome': true
+  esbuild: true
+  lefthook: true
+  multiline-ts: true
+
+lockfile:
+  format: v13
