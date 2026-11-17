@@ -1,4 +1,5 @@
 allowBuilds:
+  fsevents: false
   '@biomejs/biome': true
   esbuild: true
   lefthook: true
